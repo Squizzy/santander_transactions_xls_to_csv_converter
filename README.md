@@ -8,7 +8,8 @@ App to convert the Santander UK bank individual transactions downloaded in XLS f
 into CSV files for import into homebanking apps such as Homebank or Firefly iii
 v1.0
 
-Usage:  
+
+```
     To process all XLS in the input directory:
         - python santander_transactions_xls_to_csv_converter.py
 
@@ -21,11 +22,12 @@ Usage:
     In both cases, the output files are created under:
         - Generic CSV             :   out-generic/
         - Homebank-compliance CSV :   out-homebank/
+```
 
 # Version
-v1.0: Working version generating generic CSV and Homebank-specific CSV
+- v1.0: Working version generating generic CSV and Homebank-specific CSV
 
 # Misc
-- Released under GPL
-- Fork/Modify at will
+- Released under GPL, credit original author
+- Fork/modify at will, ideally share your improvements
 - If improvements / mods / additions are desired, open an issue in Github
