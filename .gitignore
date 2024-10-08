@@ -1,0 +1,10 @@
+*.csv
+*.xls*
+*.pdf
+*.qif
+*.txt
+*.json
+out-generic/
+out-homebank/
+misc/
+in/
